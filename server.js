@@ -81,4 +81,5 @@ const server = app.listen(SERVICE_PORT, () => {
     console.log(`Events app listening at http://${host}:${port}`);
 });
 
+
 module.exports = app;
