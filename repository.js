@@ -71,8 +71,6 @@ async function getEvents(db = mariadb) {
 
 };
 
-
-
 async function addEvent(req, db = mariadb) {
     // create a new object from the json data and add an id
     const ev = {
